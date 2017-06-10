@@ -26,7 +26,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It will be helpful while merging. If the last state of remote is known, 
+    and all the changes were made on top of the same branch, git merge will 
+    just do a fast-forward merge when we update the origin/master.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

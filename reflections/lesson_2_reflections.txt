@@ -12,13 +12,31 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	staging area holds the cached file i.e. the file having the changes. We can
+	compare the files in staging area with the files in last commit to verify
+	that the new commit is for one logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches help to add new feature into program without altering the previous
+	version. We can split the main version into a new branch, experiment on the
+	version and finally merge that into the master if it works.
+
 How do the diagrams help you visualize the branch structure?
+
+	They form a pictorial view of what exactly is happening at the higher level.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	When two branches get merged, all the cool features of both the branches
+	gets into one place without any bug. We represent it in the diagram so as
+	to keep in mind that at this particular position, we are accumulating all
+	our code into one place.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Git's automatic merging is very useful tool. This saves a lot of time and
+	effort.

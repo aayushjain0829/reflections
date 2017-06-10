@@ -33,7 +33,10 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I will distrubute my work to all the collaborators and ask them to make
+    their changes. Then we will collect all the work at one place and compare
+    changes either manually or using some tool like gdb.
+    Obviously, using git or gitHub will be a lot easier.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
